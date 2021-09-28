@@ -1,0 +1,22 @@
+{
+  "name": "mary-music",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.x"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "multer": "^1.4.2",
+    "socket.io": "^4.2.0"
+  }
+}
